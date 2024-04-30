@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row align-items-center">
 
-          <div class="col-6 col-xl-2">
+          <div class="col-6 col-xl-4">
             <h1 class="mb-0 site-logo"><a href="#" class="h2 mb-0">Audrey Krishnadasan</a></h1>
           </div>
 
@@ -82,7 +82,7 @@
 
 
     <div class="site-section cta-big-image border-bottom" id="about-section">
-      <div class="container" style="padding-top: 30px">
+      <div class="container" style="padding-top: 50px">
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
 
@@ -126,31 +126,58 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
           
-            <img src="" alt="Image of your project" class="img-fluid">
+            <img src="images/monops.png" alt="Image of your project" class="img-fluid">
           
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Project Title</h3>
+              <h3>Monopoly</h3>
               <p>
-               Motivation of the project
+               When tasked with an open ended project proposal, my group thought it would be challenging and stimulating to design a game we had spent so much of our childhood playing. 
+               The level of complexity of the game fit perfectly in our vision of an object oriented project that would result in a nostalgic and fun game!
               </p>
               <p>
-              Functional requirements/what the project does
+              This project allows 3-8 players to play a game of monopoly for a specified number of rounds - where the player with the highest net worth wins!
+              Players are able to buy and sell properties, go to/get bailed out of jail, and of course collect $200 upon passing go. The project will come with a 
+              basic visual implementation that shows where each player is on the board. 
               </p>
               <p>
-              Project design
+              The actual game is run by a simulator class, which contains a Board and several Players, that directs the flow of gameplay.
+              A Board is comprised of GameSquares: LandPlots, Utilities, and CornerSquares. Players are able to buy and sell properties and charge other players rent.
               </p>
               <p>
-              Implementation
+              In our group, I was tasked with creating the Simulator and Player classes. So I will deal with user I/O in order to get the desired actions of the player,
+              and be able to take the correct action from each command.
               </p>
 
 
             </div>
 
-            
-
           </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            
+              <img src="images/heartdis.png" alt="Image of your project" class="img-fluid">
+            
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="mb-4">
+                <h3>AI Heart Disease Prediction Model</h3>
+                <p>
+                  Worked with esteemed Data Scientist/Professor at UPenn to visualize a dataset of over 300,000 data entries from the CDC.
+                  Using machine learning models K-Nearest Neighbors, Random Forest, and XGBoost with varying features we trained and tested different models to predict heart disease
+                  In these experiments we computed accuracy metrics with and without the binary physical activity feature. 
+                <p>
+                <p>
+                  We found that the binary physical activity feature did not improve accuracy when predicting heart disease; 
+                  in fact, through all three models we found a decrease in accuracy when we added the binary physical activity feature. 
+                  These test results negate the notion that the binary physical activity feature improves the accuracy of heart disease prediction and calls for a more robust method of measuring physical activity.
+               <p>
+                <p>
+                  Take a look at my research and paper <a href="docs/AIPaper.pdf" target="_blank">here!</a>
+                <p>
+  
+              </div>
         </div>
       </div>
       
@@ -174,14 +201,14 @@
           <div class="col-md-12 text-center">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <span>email address</span>
+              <span><a href="mailto:akrishnadasan@sandiego.edu">akrishnadasan@sandiego.edu</a></span>
             </p>
           </div>
           
           <div class="col-md-12 text-center">
             <p class="mb-0">
               <span class="icon-graduation-cap d-block h4 text-primary"></span>
-              <a href="">Resume</a>
+              <a href="docs/resume.docx" target="_blank">Resume</a>
             </p>
           </div>
         </div>
